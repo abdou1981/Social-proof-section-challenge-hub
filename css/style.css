@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Spartan', sans-serif;
+  Font-size: 15px;
+  background-color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+}
+.container {
+  width: 1140px;
+  margin: 75px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.one{
+  width: 40%;
+}
+.head h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 22px;
+}
+.head p {
+  color: hsl(303, 10%, 53%);
+  line-height: 1.6;
+}
+.two {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.two div {
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 18px;
+  width: 80%;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  padding: 15px 30px ;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.two div p {
+  padding-left: 30px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+.Report {
+  align-self: center;
+}
+.BestTech {
+  align-self: flex-end;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+}
+.article > div {
+  background-color: hsl(300, 43%, 22%);
+  width: 32%;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  padding: 25px 15px;
+  height: fit-content;
+}
+.article .identity {
+  display: flex;
+  margin-bottom: 20px;
+}
+.article .identity img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.article .identity div {
+  margin-left: 10px;
+}
+.info {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 5px;
+}
+.sub-info {
+  color: hsl(333, 80%, 67%);
+}
+.article > div > p {
+  color: hsl(0, 0%, 100%);
+  line-height: 1.6;
+}
+.Irene {
+  margin-top: 30px;
+}
+.Anne {
+  margin-top: 60px;
+}
+@media screen and (max-width: 768px){
+  .container {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .head {
+    flex-direction: column;
+  }
+  .one{
+    width: 100%;
+  }
+  .head h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .head p {
+    text-align: center;
+  }
+  .two div {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 15px 5px ;
+  }
+  .two div span {
+    width: 100%;
+    text-align: center;
+  }
+  .two div p {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .two {
+    width: 100%;
+  }
+  .article {
+    flex-direction: column;
+  }
+  .article > div {
+    width: 100%;
+  }
+  .Irene {
+    margin-top: 20px;
+  }
+  .Anne {
+    margin-top: 20px;
+  }
+}
