@@ -10,11 +10,8 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -31,7 +28,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/abdou1981/Social-proof-section-challenge-hub)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
