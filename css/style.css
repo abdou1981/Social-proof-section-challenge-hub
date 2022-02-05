@@ -8,7 +8,21 @@ body {
   font-family: 'Spartan', sans-serif;
   Font-size: 15px;
   background-color: hsl(0, 0%, 100%);
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  position: relative;
+}
+body img {
+  position: absolute;
+  z-index: -1;
+}
+.bg-pattern-top {
+  top: -75px;
+  left: 0;
+  
+}
+.bg-pattern-bottom {
+  bottom: -122px;
+  right: 0;
 }
 .container {
   width: 1140px;
